@@ -1,0 +1,182 @@
+.ModularisAdmin {
+  display: block;
+  max-width: 820px;
+
+  &-help {
+    padding: 14px 16px;
+    color: var(--text-color);
+    line-height: 1.5;
+    background: var(--control-bg);
+    border-left: 3px solid var(--primary-color);
+    border-radius: 6px;
+    margin-bottom: 24px;
+  }
+
+  &-toolbar {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--control-bg);
+  }
+
+  &-importInput {
+    display: none;
+  }
+
+  &-section {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--control-bg);
+
+    &:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
+  &-sectionHeader {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+
+    &-text {
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    h3 {
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    p.helpText {
+      margin: 2px 0 0;
+      color: var(--muted-color);
+    }
+
+    .Button {
+      flex: none;
+    }
+  }
+
+  &-sectionCounter {
+    margin-left: 8px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--muted-color);
+    white-space: nowrap;
+  }
+
+  &-loading {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+  }
+
+  &-empty {
+    padding: 20px;
+    text-align: center;
+    color: var(--muted-color);
+    background: var(--control-bg);
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ModularisAdmin-sectionHeader-text {
+    flex-basis: 100%;
+  }
+}
+
+.ModularisStyleList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.ModularisStyleListItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--control-bg-light);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+
+  &-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  &-title {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &-id {
+    flex: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--muted-color);
+    background: var(--control-bg);
+    border-radius: 4px;
+    padding: 1px 6px;
+  }
+
+  &-css {
+    display: block;
+    margin-top: 2px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.75rem;
+    color: var(--muted-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+  }
+
+  &-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: none;
+    margin-left: auto;
+  }
+}
+
+.ModularisStyleModal {
+  p.helpText {
+    margin-bottom: 10px;
+  }
+
+  .ModularisStyleForm-css {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85rem;
+  }
+
+  .FormControl.invalid {
+    border-color: var(--error-color);
+  }
+
+  .Form-error {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    color: var(--error-color);
+    font-size: 0.85rem;
+  }
+}
