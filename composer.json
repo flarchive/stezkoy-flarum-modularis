@@ -1,0 +1,38 @@
+{
+  "name": "stezkoy/flarum-modularis",
+  "type": "flarum-extension",
+  "description": "Manage custom CSS styles for the forum and the admin panel with simple grouping, per-style activation and caching.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stezkoy",
+      "email": "stezko@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/Stezkoy/flarum-modularis",
+    "issues": "https://github.com/Stezkoy/flarum-modularis/issues",
+    "forum": "https://discuss.flarum.org/d/39801-modularis-manage-custom-css-styles-for-the-forum-and-the-admin-panel"
+  },
+  "require": {
+    "flarum/core": "^2.0",
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stezkoy\\FlarumModularis\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Modularis",
+      "category": "theme",
+      "icon": {
+        "name": "fas fa-palette",
+        "backgroundColor": "#7c3aed",
+        "color": "#fff"
+      }
+    }
+  }
+}
