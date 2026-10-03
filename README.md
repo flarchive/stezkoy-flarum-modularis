@@ -2,13 +2,16 @@
 
 > **Read-only archive of released versions of stezkoy/flarum-modularis.** Not for installation: use [Packagist](https://packagist.org/packages/stezkoy/flarum-modularis) or the [upstream repository](https://github.com/Stezkoy/flarum-modularis).
 
-**0** versions archived · Latest: [`v1.0.8`](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.8) · License: `MIT` · Flarum: `^2.0`
+**4** versions archived · Latest: [`v1.0.8`](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.8) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.5` | 2026-08-27 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.5) |
+| `v1.0.6` | 2026-09-04 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.6) |
+| `v1.0.7` | 2026-09-08 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.7) |
+| `v1.0.8` | 2026-09-08 | `^2.0` | [Browse](https://github.com/flarchive/stezkoy-flarum-modularis/tree/archive/v1.0.8) |
 
 Catalog entry: [packages/stezkoy-flarum-modularis.json](https://github.com/flarchive/archive-index/blob/main/packages/stezkoy-flarum-modularis.json)
 
